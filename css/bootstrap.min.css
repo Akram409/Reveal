@@ -2949,7 +2949,7 @@ fieldset:disabled .btn {
 }
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #6c757d;
+  --bs-btn-bg:#50d8af;
   --bs-btn-border-color: #6c757d;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5c636a;
@@ -7251,10 +7251,7 @@ fieldset:disabled .btn {
 }
 .border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(
-    var(--bs-primary-rgb),
-    var(--bs-border-opacity)
-  ) !important;
+  border-color: #0c2e8a !important;
 }
 .border-secondary {
   --bs-border-opacity: 1;
@@ -8094,10 +8091,7 @@ fieldset:disabled .btn {
 }
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(
-    var(--bs-primary-rgb),
-    var(--bs-bg-opacity)
-  ) !important;
+  background-color: #0c2e8a !important;
 }
 .bg-secondary {
   --bs-bg-opacity: 1;
